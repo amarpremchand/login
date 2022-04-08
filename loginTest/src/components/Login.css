@@ -1,0 +1,74 @@
+.submit {
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #eee;
+  border-radius: 10px;
+  font-family: inherit;
+  font-size: inherit;
+  font-family: "Fantasy", papyrus;
+  cursor: pointer;
+}
+h1 {
+  font-family: "Fantasy", papyrus;
+  text-align: center;
+  color: black;
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.labelCheckBox{
+  box-sizing: border-box;
+  margin: 10px;
+  font-family: papyrus;
+  font-size: 15px;
+}
+
+.text {
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #eee;
+  border-radius: 10px;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+body {
+  background-color: skyblue;
+  min-height: 100vh;
+  display: flex;
+  font-weight: 400;
+  font-family: "Fira Sans", sans-serif;
+}
+
+label {
+  font-family: papyrus;
+  font-size: 25px;
+}
+
+body,
+html,
+.App,
+#root,
+.auth-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.not-registered,
+.not-registered a {
+  text-align: center;
+  font-size: 12px;
+  padding-top: 10px;
+  color: #7f7d7d;
+  margin: 0;
+  font-family: papyrus;
+}
+
+.not-registered a {
+  color: #167bff;
+  font-family: "Fira Sans", papyrus;
+}
